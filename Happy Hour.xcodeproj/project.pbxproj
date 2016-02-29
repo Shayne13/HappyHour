@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26418D331B4C6E5700C379D3 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26418D321B4C6E5700C379D3 /* FilterTableViewController.swift */; };
+		264BBC5F1B71D01100AF4DB5 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BBC5E1B71D01100AF4DB5 /* Source.swift */; };
+		264BBC611B71E9AE00AF4DB5 /* ResultCellTypeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BBC601B71E9AE00AF4DB5 /* ResultCellTypeOne.swift */; };
+		264BBC631B71EAE300AF4DB5 /* ResultCellTypeTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BBC621B71EAE300AF4DB5 /* ResultCellTypeTwo.swift */; };
+		2673C5591B9E39F000076609 /* HeaderButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673C5581B9E39F000076609 /* HeaderButtonCell.swift */; };
+		268938341B9F823A00783784 /* DetailsMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268938331B9F823A00783784 /* DetailsMapCell.swift */; };
+		268938361B9F824F00783784 /* DetailsVenueNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268938351B9F824F00783784 /* DetailsVenueNameCell.swift */; };
+		268938381B9F826200783784 /* DetailsUtilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268938371B9F826200783784 /* DetailsUtilityCell.swift */; };
+		2689383A1B9F827900783784 /* DetailsVenueStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268938391B9F827900783784 /* DetailsVenueStyleCell.swift */; };
+		2689383C1B9F828D00783784 /* DetailsDealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689383B1B9F828D00783784 /* DetailsDealCell.swift */; };
+		26907CA01B94D65900B6BE1A /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26907C9F1B94D65900B6BE1A /* Defaults.swift */; };
+		26952B861BA379D900A94F70 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26952B851BA379D900A94F70 /* Utility.swift */; };
+		26952B881BA3806000A94F70 /* DetailsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26952B871BA3806000A94F70 /* DetailsMapViewController.swift */; };
+		2696DEC01B420C520057B005 /* SegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696DEBF1B420C520057B005 /* SegmentedViewController.swift */; };
+		2696DEC21B4268EF0057B005 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696DEC11B4268EF0057B005 /* ResultsViewController.swift */; };
+		2696DED51B43427D0057B005 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696DED11B43427D0057B005 /* Deal.swift */; };
+		2696DED61B43427D0057B005 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696DED21B43427D0057B005 /* Location.swift */; };
+		2696DED71B43427D0057B005 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696DED31B43427D0057B005 /* Venue.swift */; };
+		2696DED81B43427D0057B005 /* VenueMKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696DED41B43427D0057B005 /* VenueMKAnnotation.swift */; };
+		2696DEDC1B44B6610057B005 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696DEDB1B44B6610057B005 /* ToggleView.swift */; };
+		2696DEDE1B451D690057B005 /* SelectionNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696DEDD1B451D690057B005 /* SelectionNavigationViewController.swift */; };
+		269B03D91B9547E300444A05 /* FilterCheckBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B03D81B9547E300444A05 /* FilterCheckBoxCell.swift */; };
+		269B03DB1B9574E000444A05 /* SortControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B03DA1B9574E000444A05 /* SortControllerCell.swift */; };
+		269B03DD1B95757F00444A05 /* CurrentlyOpenToggleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B03DC1B95757F00444A05 /* CurrentlyOpenToggleCell.swift */; };
+		269B03DF1B957A9B00444A05 /* ResultTypeControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B03DE1B957A9B00444A05 /* ResultTypeControllerCell.swift */; };
+		26BBA8A51C35220300C5D062 /* ResultTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BBA8A41C35220300C5D062 /* ResultTypeCell.swift */; };
+		26BBA8A71C39068000C5D062 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BBA8A61C39068000C5D062 /* RootViewController.swift */; };
+		26FBFD041ABD11050071CFDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD031ABD11050071CFDF /* AppDelegate.swift */; };
+		26FBFD091ABD11050071CFDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FBFD071ABD11050071CFDF /* Main.storyboard */; };
+		26FBFD0B1ABD11050071CFDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FBFD0A1ABD11050071CFDF /* Images.xcassets */; };
+		26FBFD0E1ABD11050071CFDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26FBFD0C1ABD11050071CFDF /* LaunchScreen.xib */; };
+		26FBFD1A1ABD11050071CFDF /* Happy_HourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD191ABD11050071CFDF /* Happy_HourTests.swift */; };
+		26FBFD241ABD14330071CFDF /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD231ABD14330071CFDF /* Client.swift */; };
+		26FBFD261ABD14420071CFDF /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD251ABD14420071CFDF /* JSONParser.swift */; };
+		26FBFD2E1ABD15530071CFDF /* CoreLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD2D1ABD15530071CFDF /* CoreLocationManager.swift */; };
+		26FBFD301ABD1E2C0071CFDF /* MasterSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD2F1ABD1E2C0071CFDF /* MasterSelectionViewController.swift */; };
+		26FBFD321ABD1EAB0071CFDF /* ToggleFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD311ABD1EAB0071CFDF /* ToggleFood.swift */; };
+		26FBFD361ABD1F440071CFDF /* ToggleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD351ABD1F440071CFDF /* ToggleOption.swift */; };
+		26FBFD3A1ABD22760071CFDF /* BlackBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD391ABD22760071CFDF /* BlackBarViewController.swift */; };
+		26FBFD3C1ABD23050071CFDF /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD3B1ABD23050071CFDF /* ResultsTableViewController.swift */; };
+		26FBFD3E1ABD230B0071CFDF /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD3D1ABD230B0071CFDF /* ResultTableViewCell.swift */; };
+		26FBFD401ABD23160071CFDF /* ResultsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD3F1ABD23160071CFDF /* ResultsMapViewController.swift */; };
+		26FBFD421ABD232F0071CFDF /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD411ABD232F0071CFDF /* LocationTableViewController.swift */; };
+		26FBFD441ABD23360071CFDF /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBFD431ABD23360071CFDF /* DetailsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26FBFD141ABD11050071CFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26FBFCF61ABD11040071CFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FBFCFD1ABD11040071CFDF;
+			remoteInfo = "Happy Hour";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26418D321B4C6E5700C379D3 /* FilterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		264BBC5E1B71D01100AF4DB5 /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		264BBC601B71E9AE00AF4DB5 /* ResultCellTypeOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultCellTypeOne.swift; sourceTree = "<group>"; };
+		264BBC621B71EAE300AF4DB5 /* ResultCellTypeTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultCellTypeTwo.swift; path = ../ResultCellTypeTwo.swift; sourceTree = "<group>"; };
+		2673C5581B9E39F000076609 /* HeaderButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderButtonCell.swift; sourceTree = "<group>"; };
+		268938331B9F823A00783784 /* DetailsMapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsMapCell.swift; sourceTree = "<group>"; };
+		268938351B9F824F00783784 /* DetailsVenueNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVenueNameCell.swift; sourceTree = "<group>"; };
+		268938371B9F826200783784 /* DetailsUtilityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsUtilityCell.swift; sourceTree = "<group>"; };
+		268938391B9F827900783784 /* DetailsVenueStyleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVenueStyleCell.swift; sourceTree = "<group>"; };
+		2689383B1B9F828D00783784 /* DetailsDealCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsDealCell.swift; sourceTree = "<group>"; };
+		26907C9F1B94D65900B6BE1A /* Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		26952B851BA379D900A94F70 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		26952B871BA3806000A94F70 /* DetailsMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsMapViewController.swift; sourceTree = "<group>"; };
+		2696DEBF1B420C520057B005 /* SegmentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedViewController.swift; sourceTree = "<group>"; };
+		2696DEC11B4268EF0057B005 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		2696DED11B43427D0057B005 /* Deal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		2696DED21B43427D0057B005 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2696DED31B43427D0057B005 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		2696DED41B43427D0057B005 /* VenueMKAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueMKAnnotation.swift; sourceTree = "<group>"; };
+		2696DEDB1B44B6610057B005 /* ToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		2696DEDD1B451D690057B005 /* SelectionNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionNavigationViewController.swift; sourceTree = "<group>"; };
+		269B03D81B9547E300444A05 /* FilterCheckBoxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCheckBoxCell.swift; sourceTree = "<group>"; };
+		269B03DA1B9574E000444A05 /* SortControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortControllerCell.swift; sourceTree = "<group>"; };
+		269B03DC1B95757F00444A05 /* CurrentlyOpenToggleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentlyOpenToggleCell.swift; sourceTree = "<group>"; };
+		269B03DE1B957A9B00444A05 /* ResultTypeControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTypeControllerCell.swift; sourceTree = "<group>"; };
+		26BBA8A41C35220300C5D062 /* ResultTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTypeCell.swift; sourceTree = "<group>"; };
+		26BBA8A61C39068000C5D062 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		26FBFCFE1ABD11040071CFDF /* Happy Hour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Hour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FBFD021ABD11050071CFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FBFD031ABD11050071CFDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26FBFD081ABD11050071CFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26FBFD0A1ABD11050071CFDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26FBFD0D1ABD11050071CFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26FBFD131ABD11050071CFDF /* Happy HourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy HourTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FBFD181ABD11050071CFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FBFD191ABD11050071CFDF /* Happy_HourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_HourTests.swift; sourceTree = "<group>"; };
+		26FBFD231ABD14330071CFDF /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		26FBFD251ABD14420071CFDF /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		26FBFD2D1ABD15530071CFDF /* CoreLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocationManager.swift; sourceTree = "<group>"; };
+		26FBFD2F1ABD1E2C0071CFDF /* MasterSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterSelectionViewController.swift; sourceTree = "<group>"; };
+		26FBFD311ABD1EAB0071CFDF /* ToggleFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleFood.swift; sourceTree = "<group>"; };
+		26FBFD351ABD1F440071CFDF /* ToggleOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleOption.swift; sourceTree = "<group>"; };
+		26FBFD391ABD22760071CFDF /* BlackBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackBarViewController.swift; sourceTree = "<group>"; };
+		26FBFD3B1ABD23050071CFDF /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		26FBFD3D1ABD230B0071CFDF /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		26FBFD3F1ABD23160071CFDF /* ResultsMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsMapViewController.swift; sourceTree = "<group>"; };
+		26FBFD411ABD232F0071CFDF /* LocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		26FBFD431ABD23360071CFDF /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26FBFCFB1ABD11040071CFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FBFD101ABD11050071CFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268938301B9F81AE00783784 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				26418D321B4C6E5700C379D3 /* FilterTableViewController.swift */,
+				269B03DA1B9574E000444A05 /* SortControllerCell.swift */,
+				269B03DC1B95757F00444A05 /* CurrentlyOpenToggleCell.swift */,
+				269B03DE1B957A9B00444A05 /* ResultTypeControllerCell.swift */,
+				269B03D81B9547E300444A05 /* FilterCheckBoxCell.swift */,
+				2673C5581B9E39F000076609 /* HeaderButtonCell.swift */,
+			);
+			name = Filter;
+			sourceTree = "<group>";
+		};
+		2689383D1B9F82A100783784 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				26FBFD431ABD23360071CFDF /* DetailsTableViewController.swift */,
+				26952B871BA3806000A94F70 /* DetailsMapViewController.swift */,
+				268938331B9F823A00783784 /* DetailsMapCell.swift */,
+				268938351B9F824F00783784 /* DetailsVenueNameCell.swift */,
+				268938371B9F826200783784 /* DetailsUtilityCell.swift */,
+				268938391B9F827900783784 /* DetailsVenueStyleCell.swift */,
+				2689383B1B9F828D00783784 /* DetailsDealCell.swift */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		2696DED01B43427D0057B005 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2696DED11B43427D0057B005 /* Deal.swift */,
+				2696DED21B43427D0057B005 /* Location.swift */,
+				2696DED31B43427D0057B005 /* Venue.swift */,
+				2696DED41B43427D0057B005 /* VenueMKAnnotation.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2696DED91B4342F40057B005 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				26BBA8A61C39068000C5D062 /* RootViewController.swift */,
+				26FBFD2F1ABD1E2C0071CFDF /* MasterSelectionViewController.swift */,
+				2696DEDD1B451D690057B005 /* SelectionNavigationViewController.swift */,
+				26FBFD311ABD1EAB0071CFDF /* ToggleFood.swift */,
+				26FBFD351ABD1F440071CFDF /* ToggleOption.swift */,
+				2696DEDB1B44B6610057B005 /* ToggleView.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		2696DEDA1B44AEAA0057B005 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				2696DEC11B4268EF0057B005 /* ResultsViewController.swift */,
+				26FBFD3B1ABD23050071CFDF /* ResultsTableViewController.swift */,
+				26FBFD3F1ABD23160071CFDF /* ResultsMapViewController.swift */,
+				26FBFD3D1ABD230B0071CFDF /* ResultTableViewCell.swift */,
+				2696DEBF1B420C520057B005 /* SegmentedViewController.swift */,
+				264BBC601B71E9AE00AF4DB5 /* ResultCellTypeOne.swift */,
+				264BBC621B71EAE300AF4DB5 /* ResultCellTypeTwo.swift */,
+				26BBA8A41C35220300C5D062 /* ResultTypeCell.swift */,
+			);
+			name = Results;
+			sourceTree = "<group>";
+		};
+		26FBFCF51ABD11030071CFDF = {
+			isa = PBXGroup;
+			children = (
+				2696DED01B43427D0057B005 /* Classes */,
+				26FBFD001ABD11050071CFDF /* Happy Hour */,
+				26FBFD161ABD11050071CFDF /* Happy HourTests */,
+				26FBFCFF1ABD11050071CFDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26FBFCFF1ABD11050071CFDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26FBFCFE1ABD11040071CFDF /* Happy Hour.app */,
+				26FBFD131ABD11050071CFDF /* Happy HourTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26FBFD001ABD11050071CFDF /* Happy Hour */ = {
+			isa = PBXGroup;
+			children = (
+				264BBC5E1B71D01100AF4DB5 /* Source.swift */,
+				26952B851BA379D900A94F70 /* Utility.swift */,
+				26FBFD231ABD14330071CFDF /* Client.swift */,
+				26FBFD251ABD14420071CFDF /* JSONParser.swift */,
+				26907C9F1B94D65900B6BE1A /* Defaults.swift */,
+				26FBFD2D1ABD15530071CFDF /* CoreLocationManager.swift */,
+				26FBFD411ABD232F0071CFDF /* LocationTableViewController.swift */,
+				26FBFD391ABD22760071CFDF /* BlackBarViewController.swift */,
+				2696DED91B4342F40057B005 /* Root */,
+				2696DEDA1B44AEAA0057B005 /* Results */,
+				2689383D1B9F82A100783784 /* Details */,
+				268938301B9F81AE00783784 /* Filter */,
+				26FBFD071ABD11050071CFDF /* Main.storyboard */,
+				26FBFD011ABD11050071CFDF /* Supporting Files */,
+			);
+			path = "Happy Hour";
+			sourceTree = "<group>";
+		};
+		26FBFD011ABD11050071CFDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26FBFD031ABD11050071CFDF /* AppDelegate.swift */,
+				26FBFD0C1ABD11050071CFDF /* LaunchScreen.xib */,
+				26FBFD0A1ABD11050071CFDF /* Images.xcassets */,
+				26FBFD021ABD11050071CFDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26FBFD161ABD11050071CFDF /* Happy HourTests */ = {
+			isa = PBXGroup;
+			children = (
+				26FBFD191ABD11050071CFDF /* Happy_HourTests.swift */,
+				26FBFD171ABD11050071CFDF /* Supporting Files */,
+			);
+			path = "Happy HourTests";
+			sourceTree = "<group>";
+		};
+		26FBFD171ABD11050071CFDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26FBFD181ABD11050071CFDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26FBFCFD1ABD11040071CFDF /* Happy Hour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FBFD1D1ABD11050071CFDF /* Build configuration list for PBXNativeTarget "Happy Hour" */;
+			buildPhases = (
+				26FBFCFA1ABD11040071CFDF /* Sources */,
+				26FBFCFB1ABD11040071CFDF /* Frameworks */,
+				26FBFCFC1ABD11040071CFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Hour";
+			productName = "Happy Hour";
+			productReference = 26FBFCFE1ABD11040071CFDF /* Happy Hour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26FBFD121ABD11050071CFDF /* Happy HourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FBFD201ABD11050071CFDF /* Build configuration list for PBXNativeTarget "Happy HourTests" */;
+			buildPhases = (
+				26FBFD0F1ABD11050071CFDF /* Sources */,
+				26FBFD101ABD11050071CFDF /* Frameworks */,
+				26FBFD111ABD11050071CFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26FBFD151ABD11050071CFDF /* PBXTargetDependency */,
+			);
+			name = "Happy HourTests";
+			productName = "Happy HourTests";
+			productReference = 26FBFD131ABD11050071CFDF /* Happy HourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26FBFCF61ABD11040071CFDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Shayne Longpre";
+				TargetAttributes = {
+					26FBFCFD1ABD11040071CFDF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					26FBFD121ABD11050071CFDF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 26FBFCFD1ABD11040071CFDF;
+					};
+				};
+			};
+			buildConfigurationList = 26FBFCF91ABD11040071CFDF /* Build configuration list for PBXProject "Happy Hour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26FBFCF51ABD11030071CFDF;
+			productRefGroup = 26FBFCFF1ABD11050071CFDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26FBFCFD1ABD11040071CFDF /* Happy Hour */,
+				26FBFD121ABD11050071CFDF /* Happy HourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26FBFCFC1ABD11040071CFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FBFD091ABD11050071CFDF /* Main.storyboard in Resources */,
+				26FBFD0E1ABD11050071CFDF /* LaunchScreen.xib in Resources */,
+				26FBFD0B1ABD11050071CFDF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FBFD111ABD11050071CFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26FBFCFA1ABD11040071CFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269B03DD1B95757F00444A05 /* CurrentlyOpenToggleCell.swift in Sources */,
+				26FBFD2E1ABD15530071CFDF /* CoreLocationManager.swift in Sources */,
+				26907CA01B94D65900B6BE1A /* Defaults.swift in Sources */,
+				26FBFD421ABD232F0071CFDF /* LocationTableViewController.swift in Sources */,
+				269B03DB1B9574E000444A05 /* SortControllerCell.swift in Sources */,
+				2696DED81B43427D0057B005 /* VenueMKAnnotation.swift in Sources */,
+				2673C5591B9E39F000076609 /* HeaderButtonCell.swift in Sources */,
+				269B03D91B9547E300444A05 /* FilterCheckBoxCell.swift in Sources */,
+				264BBC631B71EAE300AF4DB5 /* ResultCellTypeTwo.swift in Sources */,
+				264BBC611B71E9AE00AF4DB5 /* ResultCellTypeOne.swift in Sources */,
+				26952B881BA3806000A94F70 /* DetailsMapViewController.swift in Sources */,
+				264BBC5F1B71D01100AF4DB5 /* Source.swift in Sources */,
+				26FBFD441ABD23360071CFDF /* DetailsTableViewController.swift in Sources */,
+				26FBFD301ABD1E2C0071CFDF /* MasterSelectionViewController.swift in Sources */,
+				2696DED51B43427D0057B005 /* Deal.swift in Sources */,
+				26FBFD3A1ABD22760071CFDF /* BlackBarViewController.swift in Sources */,
+				26FBFD041ABD11050071CFDF /* AppDelegate.swift in Sources */,
+				26952B861BA379D900A94F70 /* Utility.swift in Sources */,
+				2696DEDC1B44B6610057B005 /* ToggleView.swift in Sources */,
+				268938381B9F826200783784 /* DetailsUtilityCell.swift in Sources */,
+				2696DED61B43427D0057B005 /* Location.swift in Sources */,
+				26FBFD361ABD1F440071CFDF /* ToggleOption.swift in Sources */,
+				2689383C1B9F828D00783784 /* DetailsDealCell.swift in Sources */,
+				268938341B9F823A00783784 /* DetailsMapCell.swift in Sources */,
+				269B03DF1B957A9B00444A05 /* ResultTypeControllerCell.swift in Sources */,
+				2696DEC21B4268EF0057B005 /* ResultsViewController.swift in Sources */,
+				26FBFD401ABD23160071CFDF /* ResultsMapViewController.swift in Sources */,
+				26BBA8A51C35220300C5D062 /* ResultTypeCell.swift in Sources */,
+				26418D331B4C6E5700C379D3 /* FilterTableViewController.swift in Sources */,
+				2696DED71B43427D0057B005 /* Venue.swift in Sources */,
+				26BBA8A71C39068000C5D062 /* RootViewController.swift in Sources */,
+				2696DEC01B420C520057B005 /* SegmentedViewController.swift in Sources */,
+				26FBFD3C1ABD23050071CFDF /* ResultsTableViewController.swift in Sources */,
+				2696DEDE1B451D690057B005 /* SelectionNavigationViewController.swift in Sources */,
+				26FBFD261ABD14420071CFDF /* JSONParser.swift in Sources */,
+				268938361B9F824F00783784 /* DetailsVenueNameCell.swift in Sources */,
+				26FBFD241ABD14330071CFDF /* Client.swift in Sources */,
+				2689383A1B9F827900783784 /* DetailsVenueStyleCell.swift in Sources */,
+				26FBFD3E1ABD230B0071CFDF /* ResultTableViewCell.swift in Sources */,
+				26FBFD321ABD1EAB0071CFDF /* ToggleFood.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FBFD0F1ABD11050071CFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FBFD1A1ABD11050071CFDF /* Happy_HourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26FBFD151ABD11050071CFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26FBFCFD1ABD11040071CFDF /* Happy Hour */;
+			targetProxy = 26FBFD141ABD11050071CFDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26FBFD071ABD11050071CFDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FBFD081ABD11050071CFDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26FBFD0C1ABD11050071CFDF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FBFD0D1ABD11050071CFDF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FBFD1B1ABD11050071CFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26FBFD1C1ABD11050071CFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26FBFD1E1ABD11050071CFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Happy Hour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.slongpre.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26FBFD1F1ABD11050071CFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Happy Hour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.slongpre.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26FBFD211ABD11050071CFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Happy HourTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.slongpre.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Hour.app/Happy Hour";
+			};
+			name = Debug;
+		};
+		26FBFD221ABD11050071CFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Happy HourTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.slongpre.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Hour.app/Happy Hour";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FBFCF91ABD11040071CFDF /* Build configuration list for PBXProject "Happy Hour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FBFD1B1ABD11050071CFDF /* Debug */,
+				26FBFD1C1ABD11050071CFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FBFD1D1ABD11050071CFDF /* Build configuration list for PBXNativeTarget "Happy Hour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FBFD1E1ABD11050071CFDF /* Debug */,
+				26FBFD1F1ABD11050071CFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FBFD201ABD11050071CFDF /* Build configuration list for PBXNativeTarget "Happy HourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FBFD211ABD11050071CFDF /* Debug */,
+				26FBFD221ABD11050071CFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26FBFCF61ABD11040071CFDF /* Project object */;
+}
